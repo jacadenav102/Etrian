@@ -30,7 +30,11 @@ async def on_member_remove(member):
 async def on_message(message):
 
     if (str(message.channel) == 'consulta-con-issac-asibot' or str(message.channel) == f'Direct Message with {message.author}') and str(message.author) !=  'Asibot#6995':
-                await message.channel.send(rd.choice(crea_respusta_patrones(lista_respuestas,message.content)))
+                if crea_respusta_patrones(lista_respuestas,message.content) is None:
+                     await message.channel.send(rd.choice(lista_respuestas['confusion']))
+                    
+                else:
+                    await message.channel.send(rd.choice(crea_respusta_patrones(lista_respuestas,message.content)))
 
     else:
         
