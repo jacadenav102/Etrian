@@ -7,7 +7,7 @@ lista_respuestas ={
     '¿Como te llamas?':['Me llaman Asibot', 'El nombre es Issac, Isacc Asibot','Asimov, Asibot para los amigos.'],
     'Rol' : ['Tenemos diferentes juegos.Cuentame mas sobre lo que estas buscando.'],
     'rol' : ['Tenemos diferentes juegos.Cuentame mas sobre lo que estas buscando.'],
-    'Calabozo y Dragones': ['Tenemos varias mesas de Calabozos y Dragones quinta edición, debes consultar la disponibilidad.'],
+    'Calabozos y Dragones': ['Tenemos varias mesas de Calabozos y Dragones quinta edición, debes consultar la disponibilidad.'],
     'Costo': ['Puedes pagar con efectivo o haciendo una donación.'],
     'costo': ['Puedes pagar con efectivo o haciendo una donación.'],
     'ubicados':['No tenemos sede fija, tenemos partidas en línea y aveces usamos espacio del centro de Medellin'],
